@@ -17,5 +17,13 @@ public class User {
     public String toString() {
         return "User [name=" + name + "]";
     }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
     
 }
