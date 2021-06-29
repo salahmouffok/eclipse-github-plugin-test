@@ -4,7 +4,8 @@ public class User {
     
     private String name;
     private int age;
-
+    private boolean test;
+    
     public String getName() {
         return name;
     }
