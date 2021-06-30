@@ -4,7 +4,6 @@ public class User {
     
     private String name;
     private int age;
-    private boolean test;
     
     public String getName() {
         return name;
@@ -25,6 +24,17 @@ public class User {
     @Override
     public String toString() {
         return "User [name=" + name + ", age=" + age + "]";
+    }
+
+    public User(String name, int age) {
+        super();
+        this.name = name;
+        this.age = age;
+    }
+
+    public User() {
+        super();
+        // TODO Auto-generated constructor stub
     }
     
 }
